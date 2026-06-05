@@ -310,6 +310,29 @@ h2 {
   margin-bottom: 10px;
 }
 
+.writing-group {
+  padding: 32px 0 18px;
+}
+
+.writing-group:first-child {
+  padding-top: 0;
+}
+
+.text-link {
+  color: var(--accent);
+  display: inline-flex;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-weight: 700;
+  margin-top: 8px;
+  text-decoration: underline;
+  text-decoration-color: #d3b4b9;
+  text-underline-offset: 4px;
+}
+
+.text-link:hover {
+  color: #681522;
+}
+
 .cv-grid {
   display: grid;
   gap: 28px;
