@@ -100,6 +100,32 @@ main {
   padding-bottom: 64px;
 }
 
+.hero-layout {
+  max-width: 860px;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.name-lockup {
+  align-items: center;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 22px;
+}
+
+.name-lockup img {
+  flex: 0 0 auto;
+  height: 86px;
+  margin-top: 4px;
+  width: 86px;
+}
+
+.name-lockup h1 {
+  margin-bottom: 0;
+}
+
 .hero-kicker,
 .eyebrow {
   color: var(--accent);
@@ -389,6 +415,21 @@ h2 {
 
   .hero {
     padding-top: 52px;
+  }
+
+  .hero-layout {
+    max-width: none;
+  }
+
+  .name-lockup {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .name-lockup img {
+    height: 58px;
+    margin-top: 3px;
+    width: 58px;
   }
 
   .section {
